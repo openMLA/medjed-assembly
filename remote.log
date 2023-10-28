@@ -1,0 +1,1 @@
+b0c63d06-8c8b-4068-9ead-949040d94630 autoenable=true bucket=applesandorangesdomt datacenter=europe-west1 encryption=none host=storage.googleapis.com name=googlecloud2 port=80 storageclass=STANDARD type=S3 timestamp=1698526818.8132302s
