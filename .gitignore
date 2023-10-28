@@ -1,0 +1,26 @@
+# images - allow only JPG
+*.png
+*.PNG
+
+# do not include schematic .svg (as they are large). Only include a small jpg preview
+**/previews/*.svg
+
+
+# FreeCAD
+*.FCStd1
+*.FCStd.*
+
+# Production files
+*.step
+*.stl
+*.3mf
+
+# Misc
+*.afdesign
+
+# Temporary folders
+**/temp/*
+**/backup/*
+**/deprecated/*
+.orders/*
+.dev-parts/*
