@@ -15,8 +15,6 @@ Raspberry Pi high quality camera,Raspberry Pi,,Kiwi Electronics,KW-2906,1,60,,C/
 "Biconvex lens WLM illumination 1""",,,Thorlabs,LB1757-A,1,45.48,WLM,Placeholder. For white light module
 "Silver mirror 1""",,,Thorlabs,ME1-P01,1,36.95,,
 "Silver mirror WLM 1"" ",,,Thorlabs,ME1-P01,1,36.95,WLM,For white light module
-LED illumination board MARKER/AUTOFOCUS,,,tbd,tbd,1,40,,Placeholder
-LED illumination board WLM,,,tbd,tbd,1,40,WLM,Placeholder. For white light module
-Light tunnel MARKER/AUTOFOCUS,,,tbd,tbd,1,18,,Placeholder
-Light tunnel WLM,,,tbd,tbd,1,18,WLM,Placeholder. For white light module
+LED illumination board MARKER/AUTOFOCUS,Adafruit,2226,Kiwi Electronics,ADA-2226,1,7.5,,Placeholder
+LED illumination board WLM,Adafruit,2226,Kiwi Electronics,ADA-2226,1,7.5,WLM,Placeholder. For white light module
 M4 Setscrews,,,Thorlabs,SS4MS5,1,6.35,,pack of 50 setscrews
