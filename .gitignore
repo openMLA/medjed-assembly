@@ -1,6 +1,7 @@
 # images - allow only JPG
 *.png
 *.PNG
+*.afdesign
 
 # do not include schematic .svg (as they are large). Only include a small jpg preview
 **/previews/*.svg

@@ -1,6 +1,6 @@
 # Medjed Optics
 
-Optical designs for the Medjed system
+![](../media/optical_diagram.svg)
 
 ### A quick note on motivations
 
