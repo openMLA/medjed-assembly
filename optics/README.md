@@ -16,6 +16,10 @@ There are 3 different big assemblies in the origin. This is a bit confusing, but
 2. `assembly-optical-stock` is the optical assembly, as used in the photon ultra (i.e. base assembly + lens)
 3. `assembly-optical-medjed` is the main optics for the Medjed system.  **🔎 This is the main file to explore.**
 
+## ☀ Ray Tracing with the Optics workbench
+
+For the 60mm doublet I have used a fixed refractive index evaluated at 630nm. This is because the optics workbench does not support Cauchy coefficients, which are [the ones listed for the glass variants used in the lens](https://refractiveindex.info/?shelf=glass&book=HOYA-FD&page=E-FD10).
+
 ## Optical Elements and Mounts
 
 To keep the assembly compact and reduce cost, some of the optical mounts are designed specficially for the project. The more complex parts are designed around SLS prints (i.e. not filament printer friendly), but some can be printed on a filament printer with adequate supports.
