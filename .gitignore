@@ -7,9 +7,11 @@
 **/previews/*.svg
 
 
-# FreeCAD
+# FreeCAD and Ondsel ES
 *.FCStd1
 *.FCStd.*
+*.FCBak
+
 
 # Production files
 *.step
@@ -20,8 +22,8 @@
 *.afdesign
 
 # Temporary folders
-**/temp/*
-**/backup/*
-**/deprecated/*
+**/.temp/*
+**/.backup/*
+**/.deprecated/*
 .orders/*
 .dev-parts/*
