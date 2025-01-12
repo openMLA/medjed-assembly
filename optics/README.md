@@ -8,6 +8,8 @@ The optical design is not designed to reach the absolute lowest cost possible, b
 
 For more detailed justifications for part choices and focal length, consult the [wiki page](../../Medjed.wiki/optics.md)
 
+![](previews/optics-assembly.jpeg)
+
 ### A note on organisation
 
 There are 3 different big assemblies in the origin. This is a bit confusing, but this was the only way to get around the "1 assembly per file" constraint of the `Assembly4` workbench. 
@@ -19,22 +21,4 @@ There are 3 different big assemblies in the origin. This is a bit confusing, but
 ## ☀ Ray Tracing with the Optics workbench
 
 For the 60mm doublet I have used a fixed refractive index evaluated at 630nm. This is because the optics workbench does not support Cauchy coefficients, which are [the ones listed for the glass variants used in the lens](https://refractiveindex.info/?shelf=glass&book=HOYA-FD&page=E-FD10).
-
-## Optical Elements and Mounts
-
-To keep the assembly compact and reduce cost, some of the optical mounts are designed specficially for the project. The more complex parts are designed around SLS prints (i.e. not filament printer friendly), but some can be printed on a filament printer with adequate supports.
-
-### 45 degree optical mount
-
-Simple mount with single degree of freedom (rotation along Z axis of ±5 deg). Suitable for applications that do not require super precise alignment. Part holding the optic is to be designed and printed separately (can be done on filament printer). The part is to hold an optical element angled at 45 degrees. Useful for e.g. beamsplitters or dichroic filters.
-
-Secured with m4 grub screws like other Thorlabs elements.
-
-![45 degree cagebracket overview image](previews/45deg_cagebracket.jpg)
-
-### Inline tip-tilt for 1-inch optics
-
-Tip tilt actuator for 30mm cage system with tip tilt adjustment (M3 setscrew). Has a base model that is to be modified for each lens element in the design (tune to lens curvature).
-
-![](previews/cage_inline_tip-tilt.jpg)
 
